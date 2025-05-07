@@ -31,3 +31,14 @@ while idx<len(tuple):
     else:
         print("not found")
     idx+=1
+
+
+# skip value 
+j=1
+while(j<=5):
+    if(j==3):
+        j+=1
+        continue
+    print(j)
+    j+=1
+    
