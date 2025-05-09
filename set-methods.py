@@ -28,3 +28,15 @@ print(set2)
 print(set2.pop())
 print(set2)
 
+# union and intersection 
+# union -  combine both set vlaues and return new
+# intersection -  combine common set vlaues and return new
+set3 = {1,2,3,4}
+set4 = {4,5,6}
+print(set3.union(set4)) #{1, 2, 3, 4, 5, 6}
+
+print(set3.intersection(set4)) #{4}
+
+
+
+
