@@ -56,3 +56,8 @@ print(name[6:13]) #jingar
 # jyoti -> j(-5), i(-1)
 # -1 not included 
 print(name[-3:-1]) #ga
+
+
+a = 10
+b = 20
+print(f'sum of {a} & {b} = {a+b}')
