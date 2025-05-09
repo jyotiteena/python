@@ -17,3 +17,14 @@ print(set1)
 set1.clear()
 print(set1)
 print(len(set1)) #0
+
+set2 = set()
+set2.add(122)
+set2.add(211)
+set2.add(425)
+set2.add(231)
+print(set2.pop()) # randome
+print(set2)
+print(set2.pop())
+print(set2)
+
