@@ -25,3 +25,28 @@ print(dict)
 empty_dict = {}
 print(empty_dict)
 print(type(empty_dict))
+
+
+# nesting 
+obj = {
+    "id":123,
+    "name":"jyoti",
+    "address":{
+        "city":"jodhpur",
+        "state":"rajasthan"
+    }
+}
+
+print(obj)
+print(obj["address"])
+
+# ///////// get city and state 
+print(obj["address"]["city"])
+print(obj["address"]['state'])
+
+
+
+
+print(len(obj))
+
+
