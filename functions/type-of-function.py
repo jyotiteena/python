@@ -8,3 +8,7 @@ print("second")
 print("third", "forth", sep=", ")
 
 # default parameter 
+def sum(a=23,b=4):
+    print(a+b)
+sum(3)
+sum()
