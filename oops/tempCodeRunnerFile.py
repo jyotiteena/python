@@ -1,1 +1,1 @@
-std1.avg()
+balance
