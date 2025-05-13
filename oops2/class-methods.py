@@ -9,8 +9,13 @@ class Student:
     
     
     # second concept 
-    def changeName(self,name):
-        self.__class__.name = name
+    # def changeName(self,name):
+    #     self.__class__.name = name
+    
+    # third concept 
+    @classmethod
+    def changeName(cls,name):
+        cls.name = name
         
 # s1 = Student("teena")
 s1 = Student()
@@ -20,3 +25,9 @@ print(Student.name) #jyoti jingar , can't change class attribute value
 s1.changeName("mega")
 print(s1.name)
 print(Student.name)
+
+
+# //////// methods //////////
+# class method
+# static method
+# instance method 
