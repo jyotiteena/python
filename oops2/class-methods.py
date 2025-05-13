@@ -13,7 +13,7 @@ class Student:
     #     self.__class__.name = name
     
     # third concept 
-    @classmethod
+    @classmethod # decorator
     def changeName(cls,name):
         cls.name = name
         
