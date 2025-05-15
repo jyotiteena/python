@@ -11,7 +11,7 @@ print(output)
 
 # single data also can be added
 
-output2 = pd.Series(12);
+output2 = pd.Series(12)
 print(output2)
 
 #0    12
@@ -37,5 +37,10 @@ print(output3 + output4)
 # 3     NaN
 # 4     NaN
 # dtype: float64
+
+dict2 = {"name":["jyoti","teena","mega","neha"],"rank":[12,2,32,4]}
+output5 = pd.DataFrame(dict2)
+
+
 
 
