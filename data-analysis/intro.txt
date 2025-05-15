@@ -1,0 +1,21 @@
+libraries - pandas, numpy, matplotlib, seaborn, sciPy, scikit learn, statsmodel
+
+what is pandas - 
+pandas vs excel 
+pandas data structure
+
+
+data anaylsis, cleaning, exploring, manipulating, work on json, csv, excel, zip files
+why need pandas :- 
+if large amount of data into excel to handle difficult and also filtering
+
+
+three data structure - 1d , 2d and 3d
+1d (series) - pd.Series(data)
+2d (dataFrames) - 
+3d (panel) -3d container of data
+
+missing data is - NaN in floating and non-floating  point data 
+size mutability
+
+data set merging and joining
