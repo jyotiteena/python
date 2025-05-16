@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
-from scipy import stats
+# from scipy import stats
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Sample Data (house prices in $1000s)
-data = [100, 150, 200, 250, 300, 800]  # 800 is an outlier
+data = [10,15,23,31,40,50,60,70,80,90]  # 800 is an outlier
 
 # Convert to NumPy array
 arr = np.array(data)
@@ -19,8 +19,8 @@ median = np.median(arr)
 print(f"Median: {median}")
 
 # Mode
-mode = stats.mode(arr, keepdims=True)
-print(f"Mode: {mode.mode[0]} (appears {mode.count[0]} times)")
+# mode = stats.mode(arr, keepdims=True)
+# print(f"Mode: {mode.mode[0]} (appears {mode.count[0]} times)")
 
 # Range
 range_val = np.max(arr) - np.min(arr)
@@ -41,12 +41,12 @@ iqr = q3 - q1
 print(f"Q1: {q1}, Q3: {q3}, IQR: {iqr}")
 
 # Skewness
-skewness = stats.skew(arr)
-print(f"Skewness: {skewness}")
+# skewness = stats.skew(arr)
+# print(f"Skewness: {skewness}")
 
 # Kurtosis
-kurt = stats.kurtosis(arr)
-print(f"Kurtosis: {kurt}")
+# kurt = stats.kurtosis(arr)
+# print(f"Kurtosis: {kurt}")
 
 # Frequency Distribution using pandas
 df = pd.DataFrame({'prices': arr})

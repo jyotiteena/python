@@ -1,1 +1,1 @@
-scipy
+rint(f"Mode: {mode.mode[0]} (appears {mode.count[0]} times)")
