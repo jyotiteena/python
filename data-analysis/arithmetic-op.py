@@ -19,3 +19,13 @@ print(dict)
 # operations = +, -, *, / 
 
 # filtering according to conditions 
+dict["A>4"] = dict["A"]>4
+dict["B<4"] = dict["B"]<4
+print(dict)
+
+#    A  B  C    A>4    B<4
+# 0  2  1  1  False   True
+# 1  4  2  2  False   True
+# 2  6  3  3   True   True
+# 3  8  4  4   True  False
+
