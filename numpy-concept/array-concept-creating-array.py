@@ -15,6 +15,8 @@ print("zeros_2d:\n", zeros_2d)
 #[[0. 0. 0.]
 #[0. 0. 0.]]
 
+# ///// ones ////////////
+
 ones_1d = np.ones(4) #[1. 1. 1. 1.]
 
 # 2D array of ones
@@ -26,6 +28,8 @@ print("ones_2d:\n", ones_2d)
 #  [[1. 1.]
 #  [1. 1.]]
 
+# ///// empty ////////////
+
 # empty - the values are random garbage (whatever is in memory).
 # 1D empty array
 empty_1d = np.empty(3)
@@ -35,6 +39,8 @@ empty_2d = np.empty((2, 3))
 
 print("empty_1d:\n", empty_1d)
 print("empty_2d:\n", empty_2d)
+
+# ///// arange ////////////
 
 # From 0 to 9
 range1 = np.arange(10)
