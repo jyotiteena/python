@@ -6,3 +6,7 @@ print(56) #56
 print(45+5) #50
 # print("45"+5)  #error
 print("45"+"5") #455
+
+a = "hello"
+print(type(a))
+print(id(a))
