@@ -1,0 +1,1 @@
+"jingar","teena"
