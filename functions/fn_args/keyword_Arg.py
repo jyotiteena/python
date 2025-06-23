@@ -7,5 +7,5 @@ add(id=123,name="jyoti")
 def data(*arg1,**arg2):
     print(arg1)
     print(arg2)
-    
+     
 data(1,2,3,id=123,name="jyoti")
