@@ -11,3 +11,7 @@ print(ans)
 # lambda way
 ans = lambda n : n**3
 print(ans(4))
+
+# ///// addition ///
+add = lambda a,b : a+b
+print("addition = ", add(2,3))
