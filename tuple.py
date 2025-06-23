@@ -8,7 +8,7 @@ print(tuple1[2])
 # print(tuple1) TypeError: 'tuple' object does not support item assignment
 
 empTuple = ()
-print(empTuple) #()
+print(empTuple) #() 
 
 print(type(empTuple)) #<class 'tuple'>
 
