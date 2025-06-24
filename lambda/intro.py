@@ -19,4 +19,3 @@ print("show2 = ",show2) #['jyoti', 'teena']
 
 filterData = list(filter(lambda ele: ele['id']==123, list2))
 print(filterData)
-
